@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "Basketball";
+	src: url("fonts/Basketball.woff2") format("woff2")
+}
+
+h1 {
+	font-family: "Basketball", sans-serif;
+}
+
+p {
+	display: inline;
+}
+
+h2 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pdp {
+	height: 150px;
+	width: 150px;
+}
+
+td:hover {
+	background-color: #ca0000;
+}
+
+html { 
+	margin:0;
+	padding:0;
+	background: url("img/sunset basket.jpg") no-repeat center fixed; 
+	background-size: cover;
+}
+

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+html { 
+	background: url("img/terrain.jpg") no-repeat center fixed; 
+	background-size: cover;
+}
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+}
+img {
+    float: left;
+    height: 540px;
+    width: 357px;
+    margin-left: 150px;
+}
+footer {
+    color :rgb(0, 0, 0);
+}
+.logo {
+    display: inline-block;
+    margin-top: 50px;
+}
+.options {
+    display: inline-block;
+    margin-top: 50px;
+    text-align: left;
+    width: 500px;
+    padding: 50px;
+    background-color: rgba(12, 35, 64, 0.8);
+    border-radius: 10px;
+}
+.option {
+    margin-bottom: 20px;
+}
+.option a {
+    display: block;
+    padding: 10px;
+    background-color: #17408b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.option a:hover {
+    background-color: #2e5da9;
+}
